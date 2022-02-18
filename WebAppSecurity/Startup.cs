@@ -25,7 +25,7 @@ namespace WebAppSecurity
         {
             services.AddRazorPages();
 
-            services.AddAuthentication().AddCookie("MyCookieAuth", options =>
+            services.AddAuthentication("MyCookieAuth").AddCookie("MyCookieAuth", options =>
             {
                 options.Cookie.Name = "MyCookieAuth";
             });
@@ -49,7 +49,7 @@ namespace WebAppSecurity
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
