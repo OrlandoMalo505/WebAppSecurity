@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppSecurity", "WebAppSecurity\WebAppSecurity.csproj", "{C05D8DD4-7610-4EE6-8D2B-7CC76EE4CDB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppSecurity", "WebAppSecurity\WebAppSecurity.csproj", "{C05D8DD4-7610-4EE6-8D2B-7CC76EE4CDB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
