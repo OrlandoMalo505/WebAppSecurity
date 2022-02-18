@@ -31,7 +31,8 @@ namespace WebAppSecurity.Pages.Account
                     new Claim(ClaimTypes.Email, "admin@mywebsite.com"),
                     new Claim("Department", "HR"),
                     new Claim("Admin", "true"),
-                    new Claim("Manager", "true")
+                    new Claim("Manager", "true"),
+                    new Claim("EmploymentDate", "2020-01-01")
                 };
 
                 var identity = new ClaimsIdentity(claims, "MyCookieAuth");
